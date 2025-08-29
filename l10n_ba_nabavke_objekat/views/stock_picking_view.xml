@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="purchase_order_report" inherit_id="purchase.report_purchaseorder_document">
+  
+            <xpath expr="//div[@id='informations']" position="after">
+                   <div id="info_objekat" class="row mt-0 mb8">
+                        <div t-if="o.objekat_broj" class="col-3">
+                            <strong >Broj objekta:</strong>
+                            <p t-field="o.objekat_broj" class="m-0"/>
+                        </div>
+                        <div t-if="o.objekat_name" class="col-8">
+                            <strong >Ime objekta:</strong>
+                            <p t-field="o.objekat_name" class="m-0"/>
+                        </div>
+                   </div>
+            </xpath>
+
+            <xpath expr="//tbody//tr//td//span[@t-field='line.date_planned']"
+                   position="replace">
+                   <span t-field="line.date_planned_date"/>
+            </xpath>
+
+        </template>
+
+
+    </data>
+</odoo>

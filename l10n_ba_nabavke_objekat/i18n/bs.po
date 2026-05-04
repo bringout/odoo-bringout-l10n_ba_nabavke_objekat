@@ -10,52 +10,52 @@ msgstr ""
 #. module: l10n_ba_nabavke_objekat
 #: model_terms:ir.ui.view,arch_db:l10n_ba_nabavke_objekat.purchase_order_report
 msgid "<strong>Broj objekta:</strong>"
-msgstr "<strong>Broj objekta:</strong>"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model_terms:ir.ui.view,arch_db:l10n_ba_nabavke_objekat.purchase_order_report
 msgid "<strong>Ime objekta:</strong>"
-msgstr "<strong>Ime objekta:</strong>"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,help:l10n_ba_nabavke_objekat.field_purchase_order__objekat_broj
 msgid "Broj objekta"
-msgstr "Broj objekta"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,field_description:l10n_ba_nabavke_objekat.field_purchase_order_line__date_planned_date
 msgid "Date planned - date only"
-msgstr "Date planned - date only"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,help:l10n_ba_nabavke_objekat.field_purchase_order__objekat_name
 msgid "Ime objekta"
-msgstr "Ime objekta"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,help:l10n_ba_nabavke_objekat.field_stock_picking__origin_objekat_name
 msgid "Naziv objekta"
-msgstr "Naziv objekta"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,field_description:l10n_ba_nabavke_objekat.field_stock_picking__origin_objekat_name
 msgid "Objekat"
-msgstr "Objekat"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,field_description:l10n_ba_nabavke_objekat.field_purchase_order__objekat_broj
 msgid "Objekat broj"
-msgstr "Objekat broj"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model.fields,field_description:l10n_ba_nabavke_objekat.field_purchase_order__objekat_name
 msgid "Objekat ime"
-msgstr "Objekat ime"
+msgstr ""
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model,name:l10n_ba_nabavke_objekat.model_purchase_order
 msgid "Purchase Order"
-msgstr "Narudžbenica"
+msgstr "Nalog za nabavu"
 
 #. module: l10n_ba_nabavke_objekat
 #: model:ir.model,name:l10n_ba_nabavke_objekat.model_purchase_order_line

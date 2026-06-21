@@ -1,6 +1,6 @@
 {
     'name': 'Nabavke broj objekta',
-    'version': '16.0.2.0.0',
+    'version': '19.0.2.0.0',
     'category': 'Extra Tools',
     'summary': 'Broj objekta na narudžbenici dobavljača.',
     'author': 'bring.out doo Sarajevo',

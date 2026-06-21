@@ -2,7 +2,7 @@
             <field name="name">stock.picking.tree</field>
             <field name="model">stock.picking</field>
             <field name="arch" type="xml">
-                <tree string="Picking list" multi_edit="1" sample="1">
+                <list string="Picking list" multi_edit="1" sample="1">
                     <header>
                         <button name="do_unreserve" type="object" string="Unreserve"/>
                         <button name="action_assign" type="object" string="Check Availability"/>
@@ -37,7 +37,7 @@
                            decoration-success="state == 'done'"
                            decoration-warning="state not in ('draft','cancel','done','assigned')"/>
                     <field name="activity_exception_decoration" widget="activity_exception"/>
-                    <field name="json_popover" widget="stock_rescheduling_popover" nolabel="1" attrs="{'invisible': [('json_popover', '=', False)]}"/>
-                </tree>
+                    <field name="json_popover" widget="stock_rescheduling_popover" nolabel="1" invisible="json_popover == False"/>
+                </list>
             </field>
         </record>
